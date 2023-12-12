@@ -5,7 +5,7 @@ import random
 import seaborn as sns
 import streamlit as st
 
-sns.set_theme(font="HelveticaNeueCyr")
+sns.set_theme()
 
 url = "https://raw.githubusercontent.com/MaxAndreyko/applied_py_hw1/main/final_bd.csv"
 df_source = pd.read_csv(url, sep=";", index_col=0)
